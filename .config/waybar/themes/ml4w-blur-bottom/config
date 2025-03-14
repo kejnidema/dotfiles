@@ -26,12 +26,12 @@
 
     // Modules Left
     "modules-left": [
-"custom/appmenu",
+        //"custom/appmenu",
         "group/links",
         "wlr/taskbar",
         //"group/quicklinks",
         "custom/empty",
-        "hyprland/window"
+        "hyprland/window",
     ],
     
     // Modules Center
@@ -42,7 +42,7 @@
     // Modules Right    
     "modules-right": [
         "custom/updates",
-        // "pulseaudio",
+        "pulseaudio",
         "backlight",
         "bluetooth",
         "battery", 
@@ -52,7 +52,7 @@
         "tray",
         "custom/exit",
         "custom/weather",
-        "custom/ml4w-welcome",
+        // "custom/ml4w-welcome",
         "clock"
     ]
 }

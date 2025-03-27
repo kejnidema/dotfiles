@@ -86,7 +86,7 @@
     "format": "{}",
     "tooltip": true,
     "interval": 3600,
-    "exec": "wttrbar",
+    "exec": "wttrbar --nerd --location Berlin --hide-conditions --custom-indicator '{ICON}    {temp_C}° ({FeelsLikeC}°)'",
     "return-type": "json"
   },
 
@@ -215,7 +215,7 @@
 
   // Clock
   "clock": {
-    "format": "{:%H:%M %a}",
+    "format": "{:%H:%M %a %d.%m.%y}",
     "on-click": "ags toggle calendar",
     "timezone": "",
     "tooltip": false
@@ -229,13 +229,13 @@
 
   // CPU
   "cpu": {
-    "format": "/ C {usage}% ",
+    "format": "C {usage}% ",
     "on-click": "~/.config/ml4w/settings/system-monitor.sh"
   },
 
   // Memory
   "memory": {
-    "format": "/ M {}% ",
+    "format": "M {}% ",
     "on-click": "~/.config/ml4w/settings/system-monitor.sh"
   },
 
@@ -246,11 +246,6 @@
     "path": "/",
     "on-click": "~/.config/ml4w/settings/system-monitor.sh"
   },
-
-  "hyprland/language": {
-    "format": "/ K {short}"
-  },
-
   // Group Hardware
   "group/hardware": {
     "orientation": "inherit",
@@ -259,7 +254,7 @@
       "children-class": "not-memory",
       "transition-left-to-right": false
     },
-    "modules": ["custom/system", "disk", "cpu", "memory", "hyprland/language"]
+    "modules": ["custom/system", "disk", "cpu", "memory"]
   },
 
   // Group Tools

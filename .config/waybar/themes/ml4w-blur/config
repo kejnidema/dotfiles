@@ -52,6 +52,7 @@
         "tray",
         "custom/exit",
         "custom/ml4w-welcome",
+        "custom/weather",
         "clock"
     ]
 }

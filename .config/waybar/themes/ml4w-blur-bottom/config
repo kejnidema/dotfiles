@@ -32,6 +32,8 @@
         //"group/quicklinks",
         "custom/empty",
         "hyprland/window",
+        "cpu",
+        "memory",
     ],
     
     // Modules Center
@@ -41,17 +43,20 @@
 
     // Modules Right    
     "modules-right": [
+        // "disk",
         "custom/updates",
         "pulseaudio",
         "backlight",
         "bluetooth",
         "battery", 
         "network",
-        "group/hardware",
-        "group/tools",
+        // "group/hardware",
+        // "group/tools",
         "tray",
-        "custom/exit",
         "custom/weather",
+        "custom/cliphist",
+        "custom/hypridle",
+        "custom/exit",
         // "custom/ml4w-welcome",
         "clock"
     ]

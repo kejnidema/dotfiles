@@ -31,9 +31,9 @@
         "wlr/taskbar",
         //"group/quicklinks",
         "custom/empty",
-        "hyprland/window",
         "cpu",
         "memory",
+        "hyprland/window",
     ],
     
     // Modules Center

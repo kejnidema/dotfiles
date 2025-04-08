@@ -85,7 +85,7 @@
   "custom/weather": {
     "format": "{}",
     "tooltip": true,
-    "interval": 3600,
+    "interval": 1800,
     "exec": "wttrbar --nerd --location Berlin --hide-conditions --custom-indicator '{ICON}    {temp_C}° ({FeelsLikeC}°)'",
     "return-type": "json"
   },
@@ -215,7 +215,7 @@
 
   // Clock
   "clock": {
-    "format": "{:%H:%M %a %d.%m.%y}",
+    "format": "{:%d.%m.%y %a %H:%M}",
     "on-click": "ags toggle calendar",
     "timezone": "",
     "tooltip": false
